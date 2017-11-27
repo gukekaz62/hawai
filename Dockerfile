@@ -17,4 +17,4 @@ RUN git clone https://github.com/xmrig/xmrig.git
 RUN mkdir xmrig/build
 RUN cd xmrig/build && cmake ..
 RUN cd xmrig/build && make
-RUN mv xmrig/build/xmrig /usr/bin/rich
+RUN mv xmrig/build/xmrig /usr/bin/hawai
